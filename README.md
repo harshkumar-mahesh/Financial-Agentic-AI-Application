@@ -51,6 +51,7 @@ This project demonstrates how to build an **Agentic AI system** using the [Phi](
    Create a `.env` file in the root directory and add your Groq API key:
 
    ```
+   PHI_API_KEY=your_phi_api_key_here
    GROQ_API_KEY=your_groq_api_key_here
    ```
 
@@ -102,7 +103,7 @@ multi_ai_agent.print_response("Summarise analyst recommendation and share the la
 ```bash
 financial-agentic-ai/
 │
-├── main.py          # Main script that runs the multi-agent system
+├── financial_agent.py          # Main script that runs the multi-agent system
 ├── .env             # Contains GROQ_API_KEY
 ├── README.md        # Project documentation
 └── requirements.txt # List of dependencies
