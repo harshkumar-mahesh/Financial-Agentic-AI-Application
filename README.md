@@ -6,7 +6,7 @@ A multi-agent AI application that leverages **Groq-powered LLMs** with financial
 
 ## 🧠 Overview
 
-This project demonstrates how to build an **Agentic AI system** using the [Phi](https://github.com/Prompt-Engineering/phi) framework, integrating multiple specialized agents:
+This project demonstrates how to build an **Agentic AI system** using the [phi](https://pypi.org/project/phi-agent/) framework, integrating multiple specialized agents:
 
 * A **Web Search Agent** that fetches real-time information from the internet.
 * A **Finance AI Agent** that provides stock prices, analyst recommendations, fundamentals, and news using Yahoo Finance data.
@@ -62,14 +62,10 @@ This project demonstrates how to build an **Agentic AI system** using the [Phi](
 To run the multi-agent AI and ask for a financial summary, execute:
 
 ```python
-python main.py
+python financial_agent.py
 ```
 
-Sample query:
 
-```python
-multi_ai_agent.print_response("Summarise analyst recommendation and share the latest news for NVDIA", stream=True)
-```
 
 ---
 
